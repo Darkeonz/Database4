@@ -73,9 +73,9 @@ mysql> select * from employees;
 
 
 Employee
-INSERT INTO classicmodels.employees (employeeNumber,lastname, firstname, extension, email, officeCode, reportsTo, jobTitle) values (1703, 'Jensen','Gert','x1000','gj@hotmail.com','1','1002','Sales');
+INSERT INTO classicmodels.employees (employeeNumber,lastname, firstname, extension, email, officeCode, reportsTo, jobTitle) values (1703, 'terkildsen','Tosse','x1000','gsadwe@hotmail.com','1','1002','Sales');
 
-INSERT INTO classicmodels.employees(employeeNumber,lastName,firstName,extension,email,officeCode,reportsTo,jobTitle)VALUES(8,'Knudsen','Peter','x2000','prod@live.dk',1,1002,'production');
+INSERT INTO classicmodels.employees(employeeNumber,lastName,firstName,extension,email,officeCode,reportsTo,jobTitle)VALUES(8,'Henningsen','Karl','x2000','karl@pentia.dk',1,1002,'production');
 
 
 Product
