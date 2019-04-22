@@ -1,4 +1,4 @@
-# Database4
+# DatabaseAssignment4_security
 
 Excercise 1 
 
@@ -139,6 +139,8 @@ mysqldump --all-databases > dump.sql.
 To restore all of the databases is as follows:
 mysql < dump.sql.
 
-The back up should be stored outside the docker container to avoid losing data.
+The back up should be stored outside the docker container so one do not riscing to loose the data.
+
+
 
 
