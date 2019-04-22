@@ -124,7 +124,7 @@ The above shows when the user was created.
 One attempt by a bookkeeping user with wrong privileges:
 mysql -u Bookkeeping -ppassword
 
-INSERT INTO classicmodels.employees (employeeNumber,lastname, firstname, extension, email, officeCode, reportsTo, jobTitle) values (1704, 'fuskersen','svindlergert','x1000','gj@bedrag.com','1','1002','fingeren');
+INSERT INTO classicmodels.employees (employeeNumber,lastname, firstname, extension, email, officeCode, reportsTo, jobTitle) values (1704, 'Hansen','Hans','x1000','Test@Test.com','1','2222','hacker');
 
 ERROR 1142 (42000): INSERT command denied to user 'Bookkeeping'@'localhost' for table 'employees'
 
